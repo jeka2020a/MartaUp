@@ -1,0 +1,325 @@
+body {
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container {
+    max-width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    background-image: url("../images/original_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.text {
+    color: #272727;
+    opacity: 0.7;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.header__box {
+    margin-bottom: 136px;
+}
+.header__logo-box {
+    margin-right: 227px;
+}
+.header__sign-up {
+    margin-left: 199px;
+}
+.header__links {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+.sign {
+    color: #250F8A;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 8px 44px;
+    margin-left: 44px;
+}
+.ussually {
+   padding-right: 50px;
+}
+.header__box {
+    display: flex;
+    align-items: center;
+}
+.header__box-about {
+    padding-bottom: 300px;
+    display: flex;
+    align-items: flex-start;
+    color: #fff;
+}
+.about-text-title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.about-text-text {
+    margin-bottom: 60px;
+    font-weight: 400;
+    line-height: 55px;
+    font-size: 24px;
+}
+.about-text {
+    margin-right: 66px;
+    padding-top: 0px;
+}
+.about-text-link {
+    color: #250F8A;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 13px 39px;
+    white-space: nowrap;
+    background-color: #FFCA00;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.about {
+    width: 100%;
+    padding-top: 55px;
+    padding-bottom: 94px;
+}
+.about_text-title {
+    color: #202020;
+    margin-bottom: 96px;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}
+.about__title {
+    text-align: center;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.about__text-box {
+    display: flex;
+    justify-content: space-between;
+}
+.about__text-box-icons {
+    width: 280px;
+    height: 280px;
+    margin-top: 96px;
+}
+.about__title-box {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.about__text-paragraph {
+    text-align: center;
+    color: #272727;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    opacity: 0.7;
+}
+.about__icons {
+    padding: 0.5px 25px 23px 25px;
+}
+.first-box {
+    margin-left: 95px;
+}
+.second-box {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.other-box {
+    margin-right: 95px;
+}
+.box__title-about {
+    max-width: 100%;
+}
+.about__proffeshions {
+    max-width: 100%;
+    background-color: #F4F9FD;
+    padding-top: 84px;
+    padding-bottom: 76px;
+}
+.about__box-text-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 45px;
+    position: relative;
+}
+.about__box-text-title::before {
+    content: "";
+    background-image: url(../images/title_before.svg);
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 155px;
+    position: absolute;
+    left: -20px;
+    right: 204px;
+    top: -50px;
+}
+.about__box-text-text {
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.about__box-text {
+    max-width: 455px;
+    padding-left: 48px;
+    margin-right: 49px;
+}
+.about__box-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 76px;
+}
+.about__box-2 {
+    padding-bottom: 24px;
+}
+.about__box-text-title-1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 45px;
+    position: relative;
+}
+.about__box-text-title-1::before {
+    content: "";
+    background-image: url(../images/title_before-1.svg);
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 155px;
+    position: absolute;
+}
+.about__box-text-title-2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 45px;
+    position: relative;
+}
+.about__box-text-title-2::before {
+    content: "";
+    background-image: url(../images/title_before-2.svg);
+    background-repeat: no-repeat;
+    width: 230px;
+    height: 155px;
+    position: absolute;
+    left: -30px;
+    top: -25px;
+}
+.pre-footer {
+    background-image: url(../images/pre-footer__img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5px;
+    padding-bottom: 82px;
+}
+.pre-footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+.pre-footer-title {
+    color: #fff;
+    line-height: 45px;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 48px;
+    text-align: center;
+}
+.pre-footer_box {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    padding: 35px 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 20px;
+}
+.pre-footer_box-text {
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.pre-footer_box-main {
+    position: relative;
+}
+.pre-footer_box-main-0::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-image: url(../images/people-1.jpg);
+    left: 20px;
+    top: -5px;
+}
+.pre-footer_box-main-1::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: -5px;
+    border-radius: 50%;
+    background-image: url(../images/people-2.jpg);
+}
+.pre-footer_box-main-2::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: -5px;
+    border-radius: 50%;
+    background-image: url(../images/people-3.jpg);
+}
+.pre-footer_box-title {
+    text-align: center;
+    margin-left: 10px;
+}
+.pre_title {
+    opacity: 0.5;
+}
+.pre-footer_box-text-decor {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin: 0 auto;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 17px;
+}
+.footer__links-link {
+    margin-right: 25px;
+    color:#202020;
+    text-decoration: none;
+}
+.footer__container{
+    display: flex;
+    align-items: center;
+}
+.footer__text {
+    margin-left: 620px;
+}
